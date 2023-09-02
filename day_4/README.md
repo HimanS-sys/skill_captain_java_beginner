@@ -1,4 +1,4 @@
-# Assignment 3
+# Assignment 4
 
 Write a Java program that takes in two integer values from the user and outputs the larger of the two values using a conditional statement.
 
