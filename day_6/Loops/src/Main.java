@@ -26,6 +26,6 @@ public class Main {
             num = sc.nextInt();
         } while ((num < 0) || (num > 11));
 
-        System.out.println("number entered: " + num);
+        System.out.println("You entered " + num + ".");
     }
 }
