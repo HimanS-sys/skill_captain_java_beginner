@@ -6,6 +6,9 @@ import java.util.HashMap;
 public class Main {
 
     public void wordFrequencyCount(String[] arr) {
+        if((arr.length == 1 && arr[0].isEmpty()) || arr.length == 0){
+            throw new IllegalArgumentException("Kindly enter a non empty string.");
+        }
         Map<String, Integer> wordFreqMap = new HashMap<>();
         for(String word : arr) {
             word = word.replaceAll("[^a-zA-Z]", "").toLowerCase();
