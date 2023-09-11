@@ -28,6 +28,10 @@ public class Main {
                     }
 
                     numSet.add(num);
+                    break;
+                default:
+                    System.out.println("Enter a valid option");
+                    break;
             }
         }
     }
